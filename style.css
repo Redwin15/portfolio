@@ -18,7 +18,7 @@ html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body { margin:0; background:var(--paper); color:var(--ink); font: 16px/1.65 var(--sans); text-rendering:optimizeLegibility; }
 body.menu-open { overflow:hidden; }
 ::selection { background:var(--ink); color:var(--paper); }
-a { color:inherit; } img { display:block; max-width:100%; filter:grayscale(1) contrast(1.04); }
+a { color:inherit; } img {   display: block; max-width: 100%; filter: none;}
 button,input,textarea { font:inherit; }
 :focus-visible { outline:2px solid var(--ink); outline-offset:5px; }
 .shell { width:min(100%,var(--shell)); margin-inline:auto; padding-inline:var(--gutter); }

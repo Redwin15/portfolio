@@ -73,6 +73,7 @@ if (year) year.textContent = new Date().getFullYear();
     "assets/LTV Cert6.jpg",
     "assets/LTV Cert7.jpg",
     "assets/LTV Cert8.jpg",
+    "assets/LTV Cert9.jpg",
   ];
 
   const mount = document.querySelector('[data-carousel]');
